@@ -1,0 +1,21 @@
+
+const CheckoutFormAdress = () => {
+    return (
+        <div className='flex flex-col mt-1'>
+            <label className='flex gap-1 font-bold'>
+                Dirección
+                <span className='text-red-500 font-semibold'>
+                    *
+                </span>
+            </label>
+            <input
+                required
+                type='text'
+                placeholder='Dirección completa'
+                className='border-b border-main mt-1 pb-1 text-slate-700 placeholder:text-slate-400'
+            />
+        </div>
+    )
+}
+
+export default CheckoutFormAdress
