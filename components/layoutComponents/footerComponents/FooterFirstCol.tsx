@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const FooterFirstCol = () => {
     return (
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 items-center sm:items-start'>
           <Link
-                href='https://www.instagram.com/forjastore.ar'
+                href='https://www.instagram.com/las_moiras_rosario'
                 referrerPolicy='no-referrer'
                 rel='noopener'  
                 target='_blank'
@@ -14,9 +14,6 @@ const FooterFirstCol = () => {
             >
                 <Image src={logo} alt='Logo Moiras' />
             </Link>
-            <small>
-                &copy; 2026 Pixel Coffee
-            </small>
         </div>
     )
 }

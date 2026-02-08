@@ -32,3 +32,17 @@ input {
 textarea::-webkit-scrollbar {
 	@apply hidden;
 }
+
+@layer components {
+    .legals-title {
+        @apply font-bold text-2xl mb-1;
+    }
+
+    .legals-subtitle {
+        @apply font-bold text-[1.4rem] leading-7 md:leading-normal pt-2;
+    }
+    
+    .legals-text-container {
+        @apply flex flex-col gap-1 text-[.975rem] leading-6 md:leading-normal md:text-base;
+    }
+}
