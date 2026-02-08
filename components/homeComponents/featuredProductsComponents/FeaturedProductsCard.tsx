@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Product } from '@/data/products.data';
 
 const FeaturedProductsCard = ({ product }: { product: Product }) => {
-    const { title, image } = product
+    const { title, image, shortDescription } = product
 
     return (
         <article className='mx-auto'>
@@ -20,8 +20,7 @@ const FeaturedProductsCard = ({ product }: { product: Product }) => {
                     {title}
                 </h3>
                 <p className='text-sm line-clamp-1'>
-                    asdasdasdasdasdasdasdasdasdasdasdasdasdasasdasdasdasdasdasdasdas
-                    {/* {description} */}
+                    {shortDescription}
                 </p>
             </div>
             <div className='flex gap-5 mb-5'>

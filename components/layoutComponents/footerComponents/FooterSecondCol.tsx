@@ -54,11 +54,11 @@ const FooterSecondCol = () => {
                 <div className='flex gap-3 items-center'>
                     <FiMail className='block text-[1.4rem]' />
                     <span className='-ml-0.5'>
-                        contacto_moiras@gmail.com
+                        las_moiras@gmail.com
                     </span>
                 </div>
                 <IoIosArrowDropup
-                    className='block cursor-pointer text-5xl self-center mt-4'
+                    className='block cursor-pointer text-5xl self-center mt-8 md:mt-4'
                     onClick={() => scrollTop()}
                 />
             </div>

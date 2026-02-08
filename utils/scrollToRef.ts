@@ -3,7 +3,7 @@ const scrollToRef = (ref: string, offset: number) => {
     if (!element) return
     window.scrollTo({
         top: element.offsetTop - offset,
-        behavior: "smooth",
+        behavior: 'smooth',
     })
 }
 
