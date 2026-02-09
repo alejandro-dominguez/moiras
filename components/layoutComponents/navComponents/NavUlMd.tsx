@@ -20,7 +20,7 @@ const NavUlMd = ({ onToggle }: Props) => {
                 </li>
             ))}
             <div className='hidden md:block'>
-                <NavSearchBar />
+                <NavSearchBar onToggle={onToggle} />
             </div>
             <div className='ml-auto z-50'>
                 <NavCartBtn onToggle={onToggle} />
