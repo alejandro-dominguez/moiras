@@ -46,7 +46,7 @@ const FooterSecondCol = () => {
                 <div className='flex items-center gap-[.44rem]'>
                     <IoLocationOutline className='block text-[1.75rem] -ml-0.5' />
                     <span>
-                        Maipu 842.
+                        Maipu 842
                         <br />
                         Galeria del Paseo
                     </span>

@@ -6,13 +6,13 @@ const HeroCarouselContent = () => {
             <div className='mx-auto w-full'>
                 <div className='text-white'>
                     <h1
-                        className='text-3xl sm:text-4xl lg:text-5xl font-light
-                        mb-3 font-abrli-fatface leading-9 sm:leading-10 lg:leading-12'
+                        className='text-3xl sm:text-4xl lg:text-5xl font-light mb-3
+                        font-abrli-fatface leading-9 sm:leading-10 lg:leading-12'
                     >
                         DONDE LA COMODIDAD TE ENCUENTRA
                     </h1>
                     <p className='sm:text-lg lg:text-xl mb-9 opacity-90 leading-5'>
-                        Descubrí las telas que te hacen lucir increíble
+                        Descubrí telas que te harán lucir increíble
                     </p>
                     <Link
                         href='/tienda'

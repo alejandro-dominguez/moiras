@@ -52,8 +52,9 @@ const RootLayout = ({
                         toastOptions={{
                             duration: 2500,
                             style: {
-                                background: '#07178E',
+                                background: '#62748E',
                                 color: '#fff',
+                                borderRadius: '0',
                             },
                         }}
                     />

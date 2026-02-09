@@ -1,6 +1,5 @@
 'use client';
 
-import scrollToRef from '@/utils/scrollToRef';
 import Link from 'next/link';
 import { IoCartOutline } from 'react-icons/io5';
 import { usePathname } from 'next/navigation';
@@ -17,8 +16,8 @@ const NavCartBtn = ({ onToggle }: Props) => {
         return (
             <li className='z-50'>
                 <button
-                    className='cursor-pointer'
-                    onClick={() => {scrollToRef('scroll-y-Body', 0), onToggle(false)}}
+                    className='cursor-pointer mt-1'
+                    onClick={() => {onToggle(false)}}
                     aria-label='ir arriba'
                 >
                     <IoCartOutline className='block text-3xl' />
@@ -29,7 +28,10 @@ const NavCartBtn = ({ onToggle }: Props) => {
 
     return (
         <li className='z-50'>
-            <Link href='/carrito'>
+            <Link
+                href='/carrito'
+                onClick={() => {onToggle(false)}}
+            >
                 <IoCartOutline className='block text-3xl' />
             </Link>
         </li>

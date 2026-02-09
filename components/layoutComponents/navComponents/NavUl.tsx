@@ -21,19 +21,22 @@ const NavUl = ({ isVisible, onToggle }: Props) => {
                 <div className='pt-14'>
                     <ul
                         className='bg-[#fffefe] grid grid-cols-2 place-items-center
-                        -mt-14 pt-20 pb-5 px-10 shadow-md shadow-black/15'
+                        -mt-14 pt-20 pb-5 px-10 shadow shadow-black/10'
                     >
                         {navItems.map(({ label, href }) => (
                             <li
                                 key={href}
                                 className='uppercase font-semibold text-slate-700'
                             >
-                                <Link href={href}>
+                                <Link
+                                    href={href}
+                                    onClick={() => onToggle(false)}
+                                >
                                     {label}
                                 </Link>
                             </li>
                         ))}
-                        <NavSearchBar />
+                        <NavSearchBar onToggle={onToggle} />
                     </ul>
                 </div>
             </div>

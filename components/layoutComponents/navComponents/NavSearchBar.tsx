@@ -1,6 +1,10 @@
 import { IoSearch } from 'react-icons/io5';
 
-const NavSearchBar = () => {
+interface Props {
+    onToggle: (newValue: boolean) => void
+}
+
+const NavSearchBar = ({ onToggle }: Props) => {
     return (
         <div className='flex items-center gap-1.5 border-b pb-0.5 mt-0.5 border-slate-900/70'>
             <IoSearch size={19} />
