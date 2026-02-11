@@ -10,8 +10,8 @@ const CheckoutFormContainer = () => {
                 fill
                 alt='asdas'
             />            
-            <div className='relative z-10 py-5 px-10 bg-[#fffefe] shadow-sm'>
-                <h2 className='font-abrli-fatface text-2xl md:text-3xl mb-5 mt-1'>
+            <div className='relative z-10 py-5 px-8 bg-[#fffefe] shadow-sm'>
+                <h2 className='font-abrli-fatface text-2xl md:text-3xl mb-4 text-center'>
                     CHECKOUT
                 </h2>
                 <CheckoutForm />
