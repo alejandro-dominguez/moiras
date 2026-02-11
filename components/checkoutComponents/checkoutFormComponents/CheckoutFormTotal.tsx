@@ -7,7 +7,7 @@ const CheckoutFormTotal = () => {
     const { totalPrice } = useCart()
     
     return (
-        <p className='mt-4'>
+        <p className='mt-5'>
             Total a pagar:
             <br />
             {numberFormater(totalPrice)}

@@ -2,7 +2,7 @@
 const CheckoutFormEmail = () => {
     return (
         <div className='flex flex-col mt-1'>
-            <label className='font-bold'>
+            <label className='font-medium'>
                 Email
             </label>
             <input

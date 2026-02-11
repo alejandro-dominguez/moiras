@@ -14,8 +14,8 @@ const CartPage = () => {
                 <NoCartItemsCard />
             </section>
         :
-            <section className='min-h-svh'>
-                <h1 className='font-abrli-fatface text-dark text-2xl md:text-3xl mt-2 mb-3'>
+            <section className='min-h-svh mt-2'>
+                <h1 className='font-abrli-fatface text-2xl md:text-3xl mb-3'>
                     MI CARRITO
                 </h1>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>

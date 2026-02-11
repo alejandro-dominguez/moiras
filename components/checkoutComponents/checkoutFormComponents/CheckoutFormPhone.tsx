@@ -2,9 +2,9 @@
 const CheckoutFormPhone = () => {
     return (
         <div className='flex flex-col mt-1'>
-            <label className='flex gap-1 font-bold'>
+            <label className='flex gap-1 font-medium'>
                 Teléfono
-                <span className='text-red-500 font-semibold'>
+                <span className='text-red-500'>
                     *
                 </span>
             </label>

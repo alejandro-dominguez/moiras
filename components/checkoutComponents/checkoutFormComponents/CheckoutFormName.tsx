@@ -2,9 +2,9 @@
 const CheckoutFormName = () => {
     return (
         <div className='flex flex-col'>
-            <label className='flex gap-1 font-bold'>
+            <label className='flex gap-1 font-medium'>
                 Nombre
-                <span className='text-red-500 font-semibold'>
+                <span className='text-red-500'>
                     *
                 </span>
             </label>

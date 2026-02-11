@@ -25,7 +25,7 @@ const CheckoutForm = () => {
 
     return (
         <form onSubmit={submit} className='flex flex-col'>
-            <div className='flex flex-col gap-1 text-light/90'>
+            <div className='flex flex-col gap-2'>
                 <CheckoutFormName />
                 <CheckoutFormAdress />
                 <CheckoutFormPhone />
