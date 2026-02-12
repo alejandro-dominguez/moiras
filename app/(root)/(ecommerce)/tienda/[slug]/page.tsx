@@ -17,7 +17,7 @@ const ProductDetail = async ({ params }: Props) => {
 
     return (
         <section className='min-h-svh'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 items-start mt-2'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 items-start mt-2 pb-20 md:pb-0'>
                 <div className='h-60 lg:h-75 w-80'>
                     <img src={image} alt={title} />
                 </div>
