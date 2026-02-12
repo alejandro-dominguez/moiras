@@ -17,15 +17,15 @@ const ProductDetail = async ({ params }: Props) => {
 
     return (
         <section className='min-h-svh'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 items-start mt-2 pb-20 md:pb-0'>
-                <div className='h-60 lg:h-75 w-80'>
+            <div className='flex flex-col md:flex-row gap-5 items-start mt-2 pb-20 md:pb-0'>
+                <div className='w-70 mx-auto'>
                     <img src={image} alt={title} />
                 </div>
                 <div className='space-y-5'>
                     <h1 className='text-lg font-medium leading-6'>
                         {title}
                     </h1>
-                    <p className='text-[.9rem] leading-5 -mt-1'>
+                    <p className='text-[.9rem] leading-5 -mt-2'>
                         {longDescription}
                     </p>
                     <p className='text-[.95rem] -mt-2'>
