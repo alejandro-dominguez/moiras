@@ -13,7 +13,7 @@ const Checkout = () => {
                 <NoCartItemsCard />
             </section>
         :
-            <section className='min-h-svh mt-2'>
+            <section className='min-h-svh'>
                 <CheckoutFormContainer />
             </section>
     )

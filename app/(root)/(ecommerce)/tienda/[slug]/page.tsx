@@ -17,18 +17,22 @@ const ProductDetail = async ({ params }: Props) => {
 
     return (
         <section className='min-h-svh'>
-            <div className='flex flex-col md:flex-row gap-5 items-start mt-2 pb-20 md:pb-0'>
-                <div className='w-70 mx-auto'>
+            <div className='py-2 w-full' />
+            <div className='flex flex-col gap-5 items-start mt-2 pb-20 md:pb-0'>
+                <div className='w-70 hidden md:block'>
                     <img src={image} alt={title} />
                 </div>
-                <div className='space-y-5'>
+                <div className='w-70 block mx-auto md:hidden'>
+                    <img src={image} alt={title} />
+                </div>
+                <div className='flex flex-col gap-3 max-w-sm'>
                     <h1 className='text-lg font-medium leading-6'>
                         {title}
                     </h1>
-                    <p className='text-[.9rem] leading-5 -mt-2'>
+                    <p className='text-[.9rem] leading-5'>
                         {longDescription}
                     </p>
-                    <p className='text-[.95rem] -mt-2'>
+                    <p className='text-[.95rem]'>
                         {numberFormater(price)}
                     </p>
                     <ProductDetailActions product={product} />

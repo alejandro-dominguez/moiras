@@ -17,7 +17,7 @@ const ProductDetailActions = ({ product }: { product: Product }) => {
     }
     
     return (
-        <div className='flex flex-col gap-4 items-start mt-5'>
+        <div className='flex flex-col gap-4 items-start mt-2'>
             <div className='flex items-center justify-between w-40'>
                 <button
                     onClick={() => setQty(q => Math.max(1, q - 1))}
