@@ -9,6 +9,12 @@ export type Product = {
     featured: boolean
     bestSeller: boolean
     spotlight: boolean
+    stock: boolean
+    category:
+        | 'pijamas'
+        | 'ropa interior'
+        | 'medias',
+    /* brand: 'Leone' | 'Twins' | 'Venum' | 'Everlast' | 'Forja', */
 }
 
 export const products: Product[] = [
@@ -20,9 +26,11 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1583744946564-b52ac1c389c8',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'medias',
         bestSeller: true,
         featured: false,
         spotlight: false,
+        stock: true,
     },
     {
         id: 2,
@@ -32,9 +40,11 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'pijamas',
         bestSeller: true,
         featured: false,
         spotlight: false,
+        stock: true,
     },
     {
         id: 3,
@@ -44,9 +54,11 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'ropa interior',
         bestSeller: true,
         featured: false,
         spotlight: false,
+        stock: true,
     },
     {
         id: 4,
@@ -56,9 +68,11 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'medias',
         bestSeller: true,
         featured: false,
         spotlight: false,
+        stock: true,
     },
     {
         id: 5,
@@ -68,9 +82,11 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'pijamas',
         bestSeller: false,
         featured: true,
         spotlight: false,
+        stock: true,
     },
     {
         id: 6,
@@ -80,9 +96,11 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1583744946564-b52ac1c389c8',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'ropa interior',
         bestSeller: false,
         featured: true,
         spotlight: false,
+        stock: true,
     },
     {
         id: 7,
@@ -92,9 +110,11 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1583744946564-b52ac1c389c8',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'medias',
         bestSeller: false,
         featured: true,
         spotlight: false,
+        stock: true,
     },
     {
         id: 8,
@@ -104,8 +124,10 @@ export const products: Product[] = [
         image: 'https://images.unsplash.com/photo-1583744946564-b52ac1c389c8',
         shortDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
         longDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.',
+        category: 'ropa interior',
         bestSeller: false,
         featured: false,
         spotlight: true,
+        stock: true,
     },
 ]

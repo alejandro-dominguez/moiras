@@ -1,7 +1,10 @@
+import ShopContainer from '@/components/shopComponents/ShopContainer';
 
 const Shop = () => {
     return (
-        <div className='min-h-svh'>Shop</div>
+        <section className='mt-2'>
+            <ShopContainer />
+        </section>
     )
 }
 
