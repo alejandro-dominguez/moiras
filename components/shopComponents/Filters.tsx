@@ -13,7 +13,7 @@ type Props = {
 
 const Filters = ({ filters, onChange }: Props) => {
     return (
-        <div className='flex flex-wrap gap-4'>
+        <div className='flex flex-col gap-3 md:flex-row md:items-center'>
             <select
                 value={filters.category}
                 onChange={e =>
